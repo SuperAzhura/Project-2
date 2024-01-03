@@ -66,3 +66,32 @@ body {
     left: -5em;
     background-color: rgb(247, 0, 205)
 }
+
+.circle {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 20px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    position: center;
+}
+.one {
+    animation: circle 4s infinite
+        linear;
+}
+.two {
+    animation: circle 4s infinite
+        linear;
+}
+.three {
+    animation: circle 4s infinite
+    linear;
+}
+@keyframes circle{
+    from {
+        transform: scale(0);
+    }
+    to { 
+        transform: scale(6);
+    }
+}
